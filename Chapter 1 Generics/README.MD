@@ -76,9 +76,13 @@ Syntax
 		
 ### 8. Types of constraints
 where T : IComparable
+
 where T : class
+
 where T :struct
+
 where T : NameOfClass
+
 where T : new() //an object that has default constructor
 
 Check generic_property.jpg to see that we get the property of the class Product.
