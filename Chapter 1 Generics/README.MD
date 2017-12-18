@@ -1,9 +1,26 @@
 # Generics
 
-### 1. Generics are classes that have a type parameter.
+### 1. Generics are classes that have a type parameter
 Generics were introduced after .NET v1. If you wanted to store books in a list the below class wouldn't work.
-We would have to create another class which we will had Add books. For every type we would have to create a seperate list.
- 
+We would have to create another class which we will had Add books. ** For every type we would have to create a seperate list. **
+
+#### Without generics 
+
+	 public class BookList
+	 {
+		public void Add(int number)
+		{
+			throw New NotImplementedException();
+		}
+		
+		public Book this[int index]
+		{
+			get {throw New NotImplementedException();}
+		}
+	 
+	 }
+
+	 
 	 public class List
 	 {
 		public void Add(int number)
@@ -15,9 +32,51 @@ We would have to create another class which we will had Add books. For every typ
 		{
 			get {throw New NotImplementedException();}
 		}
-	 
-	 
 	 }
+	 
+	 class Program
+    {
+
+        static void Main(string[] args)
+        {
+            //The problem here is we have two different types of Lists
+            var number = new List();
+            number.Add(19);
+
+            var books= new Book();
+            books.Add(book);
+        }
+    }
+	
+#### With generics
+
+	public class GenericList<T>
+    {
+        public void Add(T value)
+        {
+
+        }
+
+        public T this [int index]
+        {
+            get { throw new NotImplementedException(); }
+        } 
+    }
+	
+	class Program
+    {
+
+        static void Main(string[] args)
+        {
+            var numbers = new GenericList<int>();
+            numbers.Add(100);
+
+            var books = new GenericList<Book>();
+            books.Add(book);
+        }
+    }
+	
+	 
 ### 2. Why we need them?
 
 	Without generics we will have the following problems :
@@ -27,7 +86,7 @@ We would have to create another class which we will had Add books. For every typ
     - No type-safety
 	 
 
-### 3. With generics we create a class once and use it multiple times.
+### 3. With generics we create a class once and use it multiple times
 We usually call them T as for template or type and the syntax is as below.	 
 
 Example 
@@ -46,7 +105,7 @@ Example
 	
 	}
 	
-### 4. In general you don't have to create generics classes or methods. You just have to use them.
+### 4. In general you don't have to create generics classes or methods. You just have to use them
 The Generic List is part of the .NET framework.
 They are in Systems.Collections.Generic.
 

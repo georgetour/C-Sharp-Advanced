@@ -4,3 +4,6 @@ C:\Users\Giant\Desktop\Generics\Generics\bin\Debug\Generics.pdb
 C:\Users\Giant\Desktop\Generics\Generics\obj\Debug\Generics.csprojResolveAssemblyReference.cache
 C:\Users\Giant\Desktop\Generics\Generics\obj\Debug\Generics.exe
 C:\Users\Giant\Desktop\Generics\Generics\obj\Debug\Generics.pdb
+C:\Users\Giant\Documents\Visual Studio 2015\Projects\C-Sharp-Advanced\Chapter 1 Generics\Generics\Generics\bin\Debug\Generics.exe.config
+C:\Users\Giant\Documents\Visual Studio 2015\Projects\C-Sharp-Advanced\Chapter 1 Generics\Generics\Generics\obj\Debug\Generics.exe
+C:\Users\Giant\Documents\Visual Studio 2015\Projects\C-Sharp-Advanced\Chapter 1 Generics\Generics\Generics\obj\Debug\Generics.pdb
