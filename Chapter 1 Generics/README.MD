@@ -1,4 +1,4 @@
-#Generics
+# Generics
 
 ### 1. Generics are classes that have a type parameter.
 Generics were introduced after .NET v1. If you wanted to store books in a list the below class wouldn't work.
