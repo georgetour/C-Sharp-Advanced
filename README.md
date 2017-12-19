@@ -5,5 +5,6 @@
 <p>They are divided in Chapters.</p>
 
 <h2>1. Generics</h2>
+<h2>2. Delegates</h2>
 
 
