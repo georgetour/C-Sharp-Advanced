@@ -1,8 +1,11 @@
 # Generics
 
-### 1. Generics are classes that have a type parameter
+### 1. Generics are classes that have a **type parameter** .
+They simply don't care for types since you declare them when you instantiating them.
 Generics were introduced after .NET v1. If you wanted to store books in a list the below class wouldn't work.
-We would have to create another class which we will had Add books. ** For every type we would have to create a seperate list. **
+We would have to create another class which we will had Add books. ** For every type we would have to create a seperate class. **
+
+Simple examples for generics https://www.youtube.com/watch?v=ZrjCG0Fu5Ew
 
 #### Without generics 
 
@@ -48,7 +51,7 @@ We would have to create another class which we will had Add books. ** For every 
         }
     }
 	
-#### With generics
+#### With generics with pass any type we want as parameter in instantiation
 
 	public class GenericList<T>
     {
@@ -79,6 +82,10 @@ We would have to create another class which we will had Add books. ** For every 
 	 
 ### 2. Why we need them?
 
+	Another great explanation https://stackoverflow.com/questions/2642598/generics-vs-inheritance-when-no-collection-classes-are-involved
+
+	**Loose coupling**
+
 	Without generics we will have the following problems :
     - Problem in simple data manipulation (insert, update, delete) of conditioned rows.
     - The chances of column mismatch is high.
@@ -86,7 +93,8 @@ We would have to create another class which we will had Add books. ** For every 
     - No type-safety
 	 
 
-### 3. With generics we create a class once and use it multiple times
+### 3. Reusability and Example
+With generics we create a class once and use it multiple times
 We usually call them T as for template or type and the syntax is as below.	 
 
 Example 
@@ -105,18 +113,23 @@ Example
 	
 	}
 	
-### 4. In general you don't have to create generics classes or methods. You just have to use them
+### 4. Generic List
+In general you don't have to create generics classes or methods. You just have to use them.
 The Generic List is part of the .NET framework.
 They are in Systems.Collections.Generic.
 
-### 5. We have also Dictionaries 
+### 5. Dictionaries 
 A Dictionary is a data type that stores and retrieves objects. It's a very fast and efficient way of storing objects.
+We can say a Dictionary is a list of keys and their values.
 
-Check the project Generics.
+Check the project GenericsV2 and http://csharp.net-informations.com/collection/dictionary.htm 
 
+### 6. Generic methods 
+You can create them in a non generic class with no problem.
+That works perfectly fine as you see in our project.
 
-### 6. We can create a generic method in a non generic class. That works perfectly fine as you see in out project.
-A great example can be found at https://www.dotnetperls.com/generic .
+Check the project GenericMethods.
+
 
 ### 7. Constraints and where keyword
 If we want to examine an in a generic list to determine whether it is valid or to compare it with some 
@@ -134,6 +147,7 @@ Syntax
         }
 		
 ### 8. Types of constraints
+
 where T : IComparable
 
 where T : class
@@ -144,6 +158,8 @@ where T : NameOfClass
 
 where T : new() //an object that has default constructor
 
+As https://www.dotnetperls.com/generic says generic constraints are rarely used.
+
 Check generic_property.jpg to see that we get the property of the class Product.
 
-Another great explanation https://stackoverflow.com/questions/2642598/generics-vs-inheritance-when-no-collection-classes-are-involved
+

@@ -21,7 +21,7 @@ namespace Generics
             //var obj = new T();
         }
 
-
+        //Same example with above but we use generics
         public T Max(T a, T b) 
         {
             //We have an error since the compiler doesn't know about a and b. They are both objects

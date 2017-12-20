@@ -1,0 +1,6 @@
+C:\Users\Giant\Desktop\GenericsV2\GenericsV2\bin\Debug\GenericsV2.exe.config
+C:\Users\Giant\Desktop\GenericsV2\GenericsV2\bin\Debug\GenericsV2.exe
+C:\Users\Giant\Desktop\GenericsV2\GenericsV2\bin\Debug\GenericsV2.pdb
+C:\Users\Giant\Desktop\GenericsV2\GenericsV2\obj\Debug\GenericsV2.csprojResolveAssemblyReference.cache
+C:\Users\Giant\Desktop\GenericsV2\GenericsV2\obj\Debug\GenericsV2.exe
+C:\Users\Giant\Desktop\GenericsV2\GenericsV2\obj\Debug\GenericsV2.pdb

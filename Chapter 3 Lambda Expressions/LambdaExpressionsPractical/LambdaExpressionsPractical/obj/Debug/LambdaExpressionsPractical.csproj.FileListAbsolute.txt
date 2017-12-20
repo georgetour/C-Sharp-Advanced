@@ -1,0 +1,6 @@
+C:\Users\Giant\Desktop\LambdaExpressionsPractical\LambdaExpressionsPractical\bin\Debug\LambdaExpressionsPractical.exe.config
+C:\Users\Giant\Desktop\LambdaExpressionsPractical\LambdaExpressionsPractical\bin\Debug\LambdaExpressionsPractical.exe
+C:\Users\Giant\Desktop\LambdaExpressionsPractical\LambdaExpressionsPractical\bin\Debug\LambdaExpressionsPractical.pdb
+C:\Users\Giant\Desktop\LambdaExpressionsPractical\LambdaExpressionsPractical\obj\Debug\LambdaExpressionsPractical.csprojResolveAssemblyReference.cache
+C:\Users\Giant\Desktop\LambdaExpressionsPractical\LambdaExpressionsPractical\obj\Debug\LambdaExpressionsPractical.exe
+C:\Users\Giant\Desktop\LambdaExpressionsPractical\LambdaExpressionsPractical\obj\Debug\LambdaExpressionsPractical.pdb

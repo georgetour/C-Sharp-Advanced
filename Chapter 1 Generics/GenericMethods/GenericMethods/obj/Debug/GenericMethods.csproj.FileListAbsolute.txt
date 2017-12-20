@@ -1,0 +1,6 @@
+C:\Users\Giant\Desktop\GenericMethods\GenericMethods\bin\Debug\GenericMethods.exe.config
+C:\Users\Giant\Desktop\GenericMethods\GenericMethods\bin\Debug\GenericMethods.exe
+C:\Users\Giant\Desktop\GenericMethods\GenericMethods\bin\Debug\GenericMethods.pdb
+C:\Users\Giant\Desktop\GenericMethods\GenericMethods\obj\Debug\GenericMethods.csprojResolveAssemblyReference.cache
+C:\Users\Giant\Desktop\GenericMethods\GenericMethods\obj\Debug\GenericMethods.exe
+C:\Users\Giant\Desktop\GenericMethods\GenericMethods\obj\Debug\GenericMethods.pdb

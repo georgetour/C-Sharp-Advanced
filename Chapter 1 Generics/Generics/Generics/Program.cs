@@ -29,8 +29,11 @@ namespace Generics
             books.Add(book);
 
             //Use of Dictionary
-            var dictionary = new GenericDictionary<string, Book>();
-            dictionary.Add("432423", book);
+            //As you see we pass anything we want as parameters types
+            //So if we want to use it again we can change just the parameter types
+            var dictionary = new GenericDictionary<string, int>();
+            dictionary.Add("Ben Hur", 42);
+
 
             //If we have a value in our parameter we will get it else we get 0
             //Try to leave empty the parameter

@@ -14,7 +14,8 @@ namespace Generics
     {
         public void Add(Tkey tkey, Tvalue tvalue)
         {
-
+            Console.WriteLine(tkey);
+            Console.WriteLine(tvalue);
         }
     }
     
@@ -24,7 +25,7 @@ namespace Generics
     {
         public void Add(T value)
         {
-
+            Console.WriteLine(value);
         }
 
         public T this [int index]
