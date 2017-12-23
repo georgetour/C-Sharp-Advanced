@@ -44,5 +44,7 @@ Use a delegate when :
 - The caller doesn't need to access other properties or methods onthe object implementing the method(like the framework example
 where another developer needs to use another filter)
 
+Check Delegates_Simple_Example project for simple explanation
+
 
 

@@ -4,3 +4,9 @@ C:\Users\Giant\Desktop\Delegates\Delegates\bin\Debug\Delegates.pdb
 C:\Users\Giant\Desktop\Delegates\Delegates\obj\Debug\Delegates.csprojResolveAssemblyReference.cache
 C:\Users\Giant\Desktop\Delegates\Delegates\obj\Debug\Delegates.exe
 C:\Users\Giant\Desktop\Delegates\Delegates\obj\Debug\Delegates.pdb
+C:\Users\Giant\Documents\Visual Studio 2015\Projects\C-Sharp-Advanced\Chapter 2 Delegates\Delegates\Delegates\bin\Debug\Delegates.exe.config
+C:\Users\Giant\Documents\Visual Studio 2015\Projects\C-Sharp-Advanced\Chapter 2 Delegates\Delegates\Delegates\obj\Debug\Delegates.exe
+C:\Users\Giant\Documents\Visual Studio 2015\Projects\C-Sharp-Advanced\Chapter 2 Delegates\Delegates\Delegates\obj\Debug\Delegates.pdb
+C:\Users\Giant\Documents\Visual Studio 2015\Projects\C-Sharp-Advanced\Chapter 2 Delegates\Delegates\Delegates\bin\Debug\Delegates.exe
+C:\Users\Giant\Documents\Visual Studio 2015\Projects\C-Sharp-Advanced\Chapter 2 Delegates\Delegates\Delegates\bin\Debug\Delegates.pdb
+C:\Users\Giant\Documents\Visual Studio 2015\Projects\C-Sharp-Advanced\Chapter 2 Delegates\Delegates\Delegates\obj\Debug\Delegates.csprojResolveAssemblyReference.cache

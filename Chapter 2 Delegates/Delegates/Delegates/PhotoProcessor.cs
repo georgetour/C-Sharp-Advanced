@@ -11,8 +11,6 @@ namespace Delegates
         //Custom delegate
         //public delegate void PhotoFilterHandler(Photo photo);
 
-        
-
         //This code doesn't know what filter will be applied
         public void Process(string path, Action<Photo> filterHandler)
         {

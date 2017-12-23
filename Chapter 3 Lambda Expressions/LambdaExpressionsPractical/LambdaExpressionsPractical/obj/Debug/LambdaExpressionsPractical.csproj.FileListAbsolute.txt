@@ -4,3 +4,6 @@ C:\Users\Giant\Desktop\LambdaExpressionsPractical\LambdaExpressionsPractical\bin
 C:\Users\Giant\Desktop\LambdaExpressionsPractical\LambdaExpressionsPractical\obj\Debug\LambdaExpressionsPractical.csprojResolveAssemblyReference.cache
 C:\Users\Giant\Desktop\LambdaExpressionsPractical\LambdaExpressionsPractical\obj\Debug\LambdaExpressionsPractical.exe
 C:\Users\Giant\Desktop\LambdaExpressionsPractical\LambdaExpressionsPractical\obj\Debug\LambdaExpressionsPractical.pdb
+C:\Users\Giant\Documents\Visual Studio 2015\Projects\C-Sharp-Advanced\Chapter 3 Lambda Expressions\LambdaExpressionsPractical\LambdaExpressionsPractical\bin\Debug\LambdaExpressionsPractical.exe.config
+C:\Users\Giant\Documents\Visual Studio 2015\Projects\C-Sharp-Advanced\Chapter 3 Lambda Expressions\LambdaExpressionsPractical\LambdaExpressionsPractical\obj\Debug\LambdaExpressionsPractical.exe
+C:\Users\Giant\Documents\Visual Studio 2015\Projects\C-Sharp-Advanced\Chapter 3 Lambda Expressions\LambdaExpressionsPractical\LambdaExpressionsPractical\obj\Debug\LambdaExpressionsPractical.pdb

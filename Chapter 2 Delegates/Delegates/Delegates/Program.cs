@@ -14,10 +14,13 @@ namespace Delegates
             var photoProcessor = new PhotoProcessor();
             var filters = new PhotoFilters();
 
-            //Calling the custom delegate
+            //Calling the custom delegate and assigning to it the ApplyBrightness method from PhotoFilters
             //PhotoProcessor.PhotoFilterHandler filter = filters.ApplyBrightness;
 
-            //Using the .NET  Action delegate that takes Photo as parameter
+             
+            //Using the .NET  Action delegate
+            //You must pass the parameter that is used in methods which you will use
+            //In this case below filters methods have Photo as parameter 
             Action<Photo> filter = filters.ApplyBrightness;
 
             //Use another filter
@@ -25,9 +28,9 @@ namespace Delegates
 
             //Easily applying the new filter we created
             filter += RemoveRedEyeFilter;
-
+            
             photoProcessor.Process("photo.jpg", filter); 
-
+            
         }
 
         static void RemoveRedEyeFilter(Photo photo)

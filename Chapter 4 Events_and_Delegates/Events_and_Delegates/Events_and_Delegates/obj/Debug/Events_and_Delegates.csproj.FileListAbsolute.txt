@@ -1,0 +1,6 @@
+C:\Users\Giant\Desktop\Events_and_Delegates\Events_and_Delegates\bin\Debug\Events_and_Delegates.exe.config
+C:\Users\Giant\Desktop\Events_and_Delegates\Events_and_Delegates\bin\Debug\Events_and_Delegates.exe
+C:\Users\Giant\Desktop\Events_and_Delegates\Events_and_Delegates\bin\Debug\Events_and_Delegates.pdb
+C:\Users\Giant\Desktop\Events_and_Delegates\Events_and_Delegates\obj\Debug\Events_and_Delegates.csprojResolveAssemblyReference.cache
+C:\Users\Giant\Desktop\Events_and_Delegates\Events_and_Delegates\obj\Debug\Events_and_Delegates.exe
+C:\Users\Giant\Desktop\Events_and_Delegates\Events_and_Delegates\obj\Debug\Events_and_Delegates.pdb

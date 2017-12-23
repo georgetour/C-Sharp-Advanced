@@ -1,0 +1,6 @@
+c:\users\giant\documents\visual studio 2015\Projects\Delegates_Simple_Example\Delegates_Simple_Example\bin\Debug\Delegates_Simple_Example.exe.config
+c:\users\giant\documents\visual studio 2015\Projects\Delegates_Simple_Example\Delegates_Simple_Example\bin\Debug\Delegates_Simple_Example.exe
+c:\users\giant\documents\visual studio 2015\Projects\Delegates_Simple_Example\Delegates_Simple_Example\bin\Debug\Delegates_Simple_Example.pdb
+c:\users\giant\documents\visual studio 2015\Projects\Delegates_Simple_Example\Delegates_Simple_Example\obj\Debug\Delegates_Simple_Example.csprojResolveAssemblyReference.cache
+c:\users\giant\documents\visual studio 2015\Projects\Delegates_Simple_Example\Delegates_Simple_Example\obj\Debug\Delegates_Simple_Example.exe
+c:\users\giant\documents\visual studio 2015\Projects\Delegates_Simple_Example\Delegates_Simple_Example\obj\Debug\Delegates_Simple_Example.pdb
