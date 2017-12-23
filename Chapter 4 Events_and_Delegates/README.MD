@@ -74,6 +74,7 @@ Check **Events_and_Delegates** project.
 		public event VideoEncodedEventHandler VideoEncoded;
 		
 	We write
+	
 	public event EventHandler<VideoEventArgs> VideoEncoded;
 	
 If we don't want any additional data 
