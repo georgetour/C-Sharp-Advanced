@@ -10,7 +10,7 @@
  - A delegate is an Agreement/Constract between Publisher and Subscriber 
  - It determines the signature of the event handler method in the subscriber
  
-1. How to implement an event
+## 1. How to implement an event
 
  - **First we define a delegate**
  It's the contract between the publisher and the subscriber.The delegate will determine the 
@@ -42,27 +42,27 @@
 
         }
 		
-2. Finally we have to do the subscription
- class Program
+## 2. Finally we have to do the subscription
+ 
+class Program
+{
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            var video = new Video(){ Title = "Video 1"};
-            var videoEncoder = new VideoEncoder(); //publisher
-            var mailService = new MailService(); //subscriber
+        var video = new Video(){ Title = "Video 1"};
+        var videoEncoder = new VideoEncoder(); //publisher
+        var mailService = new MailService(); //subscriber
 
             //Register the handler at the event(note that we don't make a call to OnVideoEncoded method so no brackets)
-            videoEncoder.VideoEncoded += mailService.OnVideoEncoded;
+        videoEncoder.VideoEncoded += mailService.OnVideoEncoded;
 
-            videoEncoder.Encode(video);
-
-        }
-
+        videoEncoder.Encode(video);
     }
+
+}
 	
 So we have a publisher that has the event and we add subscribers to the event.
 As you will see in the project we have loosely coupling since we didn't have to change anything to VideoEncoder.
-Check Events_and_Delegates project.
+Check **Events_and_Delegates** project.
 
 **We don't want every time to create a new/custom delegate every time we create an event since .NET has**
 
