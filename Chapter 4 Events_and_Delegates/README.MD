@@ -12,7 +12,7 @@
  
 1. How to implement an event
 
- - ** First we define a delegate **
+ - **First we define a delegate**
  It's the contract between the publisher and the subscriber.The delegate will determine the 
  ** signature ** of the method and the subscriber that will be called when the publisher publishes an event.
  
@@ -21,12 +21,12 @@
   //The second parameter is an EventArgs which is any additional data we want to send to the event 
   public delegate void VideoEncodedEventHandler(object source, EventArgs args);
   
-  - ** Second we define an event** 
+  - **Second we define an event** 
   It's based on the delegate we created.
   
   public event VideoEncodedEventHandler VideoEncoded;
   
-  - ** Third we raise the event** 
+  - **Third we raise the event** 
   
 		//Note the On for convention
 		protected virtual void OnVideoEncoded()
@@ -64,7 +64,7 @@ So we have a publisher that has the event and we add subscribers to the event.
 As you will see in the project we have loosely coupling since we didn't have to change anything to VideoEncoder.
 Check Events_and_Delegates project.
 
-** We don't want every time to create a new/custom delegate every time we create an event since .NET has **
+**We don't want every time to create a new/custom delegate every time we create an event since .NET has**
 
  - EventHandler
  - EventHandler<TEventArgs>
