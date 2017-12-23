@@ -10,9 +10,9 @@ namespace Events_and_Delegates
     public class TextService
     {
         //The parameters are the same with the delegate
-        public void OnVideoEncoded(object source, EventArgs e)
+        public void OnVideoEncoded(object source, VideoEventArgs e)
         {
-            Console.WriteLine("Text message send");
+            Console.WriteLine("Text message send for video title " + e.Video.Title);
         }
     }
 }

@@ -11,18 +11,23 @@ namespace Events_and_Delegates
         // 2. Define an event
         // 3. Raise the event
 
-        public delegate void VideoEncodedEventHandler(object source, EventArgs args);
-        public event VideoEncodedEventHandler VideoEncoded;
+        //public delegate void VideoEncodedEventHandler(object source, VideoEventArgs args);
+        //public event VideoEncodedEventHandler VideoEncoded;
+
+        //**** Using the .NET framework EventHandler is same as the two above lines****
+        public event EventHandler<VideoEventArgs> VideoEncoded;
+
+
 
         public void Encode(Video video)
         {
             Console.WriteLine("Encoding Video...");
             Thread.Sleep(3000);
 
-            OnVideoEncoded();
+            OnVideoEncoded(video);
         }
 
-        protected virtual void OnVideoEncoded()
+        protected virtual void OnVideoEncoded(Video video)
         {
             //We start checking if they are any subscribers to the event
             if (VideoEncoded != null)
@@ -30,7 +35,7 @@ namespace Events_and_Delegates
                 //The signature is what we defined
                 //Who is the source of the event or who is publishing the event the first parameter
                 //Second parameter additional data with the event
-                VideoEncoded(this, EventArgs.Empty);
+                VideoEncoded(this, new VideoEventArgs() { Video = video});
             }
 
         }

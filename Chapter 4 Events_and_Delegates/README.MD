@@ -58,12 +58,27 @@
 
         }
 
-        
     }
 	
 So we have a publisher that has the event and we add subscribers to the event.
 As you will see in the project we have loosely coupling since we didn't have to change anything to VideoEncoder.
 Check Events_and_Delegates project.
+
+** We don't want every time to create a new/custom delegate every time we create an event since .NET has **
+
+ - EventHandler
+ - EventHandler<TEventArgs>
+ 
+	So instead of saying 
+		public delegate void VideoEncodedEventHandler(object source, VideoEventArgs args);
+		public event VideoEncodedEventHandler VideoEncoded;
+		
+	We write
+	public event EventHandler<VideoEventArgs> VideoEncoded;
+	
+If we don't want any additional data 
+
+        public event EventHandler VideoEncoded;
   
 
 

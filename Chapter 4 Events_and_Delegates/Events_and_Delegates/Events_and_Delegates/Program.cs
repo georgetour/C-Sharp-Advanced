@@ -10,7 +10,7 @@ namespace Events_and_Delegates
     {
         static void Main(string[] args)
         {
-            var video = new Video(){ Title = "Video 1"};
+            var video = new Video(){ Title = "Spiderman"};
             var videoEncoder = new videoEncoder(); //publisher
             var mailService = new MailService(); //subscriber
             var textService = new TextService(); //another subscriber

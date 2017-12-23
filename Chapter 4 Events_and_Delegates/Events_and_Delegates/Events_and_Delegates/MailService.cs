@@ -10,9 +10,10 @@ namespace Events_and_Delegates
     public class MailService
     {
         //The parameters are the same with the delegate
-        public void OnVideoEncoded(object source, EventArgs e)
+        public void OnVideoEncoded(object source, VideoEventArgs e)
         {
-            Console.WriteLine("Mail was sent");
+            Console.WriteLine("Mail was sent for video title " + e.Video.Title);
+            
         }
 
 
