@@ -1,0 +1,6 @@
+c:\users\giant\documents\visual studio 2015\Projects\Extension_Methods\Extension_Methods\bin\Debug\Extension_Methods.exe.config
+c:\users\giant\documents\visual studio 2015\Projects\Extension_Methods\Extension_Methods\bin\Debug\Extension_Methods.exe
+c:\users\giant\documents\visual studio 2015\Projects\Extension_Methods\Extension_Methods\bin\Debug\Extension_Methods.pdb
+c:\users\giant\documents\visual studio 2015\Projects\Extension_Methods\Extension_Methods\obj\Debug\Extension_Methods.csprojResolveAssemblyReference.cache
+c:\users\giant\documents\visual studio 2015\Projects\Extension_Methods\Extension_Methods\obj\Debug\Extension_Methods.exe
+c:\users\giant\documents\visual studio 2015\Projects\Extension_Methods\Extension_Methods\obj\Debug\Extension_Methods.pdb
