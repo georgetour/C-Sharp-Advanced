@@ -1,7 +1,9 @@
 # Extension Methods
 
  - They allow us to add methods to an existing class **without** 
+ 
  -- Changing its source code 
+ 
  -- Creating a new class that inherits from it 
  
  
