@@ -8,7 +8,7 @@
 1. Why to use
 
 If we had :
-
+<pre>
  namespace Extension_Methods
 {
     class Program
@@ -22,7 +22,7 @@ If we had :
     }
  
 }
-
+</pre>
 And we wanted to inherit from String class we couldn't as you see in Visual Studio. This is where extension methods comes.
 
 **To create an extension method you need to create a static class.**
@@ -32,18 +32,18 @@ And we wanted to inherit from String class we couldn't as you see in Visual Stud
 You add write the class you want to extend and then Extensions. Below we want to extend the String class.
 
 Example
-
+<pre>
 	public static class StringExtensions
     {
 		
     }
-	
+</pre>
 3. The method
 
 Should always be static and first parameter is this TypeYouareExtending name.
 
 Example 
-
+<pre>
   public static class StringExtensions
     {
         public static string Shorten()
@@ -52,7 +52,7 @@ Example
         }
 
     }
-	
+</pre>	
 4. Extension methods namespace and icon
 
 Extension methods should be in same namespace so they can be used. Also you can see in extension_methods_icon.jpg 
