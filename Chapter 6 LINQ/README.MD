@@ -66,6 +66,7 @@ Example
 
 <pre> var cheapBooksLINQ = books
 <<<<<<< HEAD
+<<<<<<< HEAD
 							.Where(b => b.Price < 10)
 							.OrderBy(b => b.Price)
 							.Select(b => b.Title);</pre>
@@ -74,6 +75,11 @@ Example
 			      .OrderBy(b => b.Price)
 			      .Select(b => b.Title); </pre>
 >>>>>>> c26fd8477b6a6d72ec3597dbbe05976dabe697eb
+=======
+			     .Where(b => b.Price < 10)
+			     .OrderBy(b => b.Price)
+			     .Select(b => b.Title); </pre>
+>>>>>>> 9c668191e81e79f54297059b15716e1cef7c1dda
 							   
 ##8. LINQ Query Operators Syntax
 
