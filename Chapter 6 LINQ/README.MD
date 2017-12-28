@@ -9,9 +9,13 @@ and get rich data from it. Also the syntax is similar with sql/mysql so you will
 ## 1. Query 
 
 **- Objects in memory, eg collections(LINQ to Objects)**
+
 **- Databases(LINQ to Entities)**
+
 **- XML (LINQ to XML)**
+
 **- ADO.NET Data Sets(LINQ to Data Sets)**
+
 
 ## 2. Where()
 
@@ -65,9 +69,9 @@ Example
 ## 7.LINQ Extension Methods syntax
 
 <pre> var cheapBooksLINQ = books
-							  .Where(b => b.Price < 10)
-			                  .OrderBy(b => b.Price)
-			                  .Select(b => b.Title);</pre>
+			    .Where(b => b.Price < 10)
+			    .OrderBy(b => b.Price)
+			    .Select(b => b.Title);</pre>
    
 ## 8. LINQ Query Operators Syntax
 
