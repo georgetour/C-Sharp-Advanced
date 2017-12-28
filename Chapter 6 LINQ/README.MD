@@ -4,14 +4,14 @@
 - Gives you the ability to query objects
 
 LINQ is one of the strong advantages of the C# language. You can run queries to almsot anything in .NET framework
-and get rich data from it.
+and get rich data from it. Also the syntax is similar with sql/mysql so you will feel more comfortable if you know any them.
 
 ## 1. Query 
 
-- Objects in memory, eg collections(LINQ to Objects)
-- Databases(LINQ to Entities)
-- XML (LINQ to XML)
-- ADO.NET Data Sets(LINQ to Data Sets)
+**- Objects in memory, eg collections(LINQ to Objects)**
+**- Databases(LINQ to Entities)**
+**- XML (LINQ to XML)**
+**- ADO.NET Data Sets(LINQ to Data Sets)**
 
 ## 2. Where()
 
@@ -65,9 +65,9 @@ Example
 ## 7.LINQ Extension Methods syntax
 
 <pre> var cheapBooksLINQ = books
-			      .Where(b => b.Price < 10)
-			      .OrderBy(b => b.Price)
-			      .Select(b => b.Title);</pre>
+							  .Where(b => b.Price < 10)
+			                  .OrderBy(b => b.Price)
+			                  .Select(b => b.Title);</pre>
    
 ## 8. LINQ Query Operators Syntax
 
@@ -76,3 +76,69 @@ Example
                             orderby b.Price
                             select b;</pre>
 
+## 9. Single()
+
+Single method returns only the single result as shown in single_extension_method.jpg. 
+If we run something that doesn't return a result the application chashes so we must control it by using **SingleOrDefault**
+which returns null instead of exception.
+
+
+Example 
+var books = new BookRepository().Getbooks();
+var singleTitle = books.Single(b => b.Title == "ASP.NET MVC Step by Step");
+
+## 10. First()
+
+Returns the first result of the collection.
+
+var firstResult = books.First();
+
+Also you can apply a predacate. 
+
+Example 
+//Give me the first book where the title is C# Advanced Topics
+
+var firstResult = books.First(b => b.Title == "C# Advanced Topics");
+
+## 11. FirstOrDefault()
+
+It's similar to SingleOrDefault().
+
+## 12. Last()
+
+It will return the last result. Also we have LastOrDefault().
+
+## 13. Skip() and Take()
+
+With those two methods we are saying skip the data you want and take only what you want
+
+//Skip first two records and return total 2
+var book = books.Skip(2).Take(2);
+
+## 14. Count()
+
+Returns how many
+
+Example
+
+var totalBooks = books.Count();
+
+## 15.Max()
+
+Returns the highest number of collection.
+
+var highestPrice = books.Max(b => b.Price);
+
+## 16. Min()
+
+Returns the lowest number of collection.
+
+var highestPrice = books.Min(b => b.Price);
+
+## 17. Sum()
+
+Sums the total.
+
+## 18. Average()
+
+Gives us the average.

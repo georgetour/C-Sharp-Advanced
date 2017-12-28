@@ -1,0 +1,6 @@
+C:\Users\Giant\Desktop\LINQ_More_Examples\LINQ_More_Examples\bin\Debug\LINQ_More_Examples.exe.config
+C:\Users\Giant\Desktop\LINQ_More_Examples\LINQ_More_Examples\obj\Debug\LINQ_More_Examples.csprojResolveAssemblyReference.cache
+C:\Users\Giant\Desktop\LINQ_More_Examples\LINQ_More_Examples\bin\Debug\LINQ_More_Examples.exe
+C:\Users\Giant\Desktop\LINQ_More_Examples\LINQ_More_Examples\bin\Debug\LINQ_More_Examples.pdb
+C:\Users\Giant\Desktop\LINQ_More_Examples\LINQ_More_Examples\obj\Debug\LINQ_More_Examples.exe
+C:\Users\Giant\Desktop\LINQ_More_Examples\LINQ_More_Examples\obj\Debug\LINQ_More_Examples.pdb
