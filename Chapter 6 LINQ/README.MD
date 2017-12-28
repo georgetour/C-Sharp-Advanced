@@ -65,30 +65,14 @@ Example
 ## 7.LINQ Extension Methods syntax
 
 <pre> var cheapBooksLINQ = books
-<<<<<<< HEAD
-<<<<<<< HEAD
-							.Where(b => b.Price < 10)
-							.OrderBy(b => b.Price)
-							.Select(b => b.Title);</pre>
-=======
 			      .Where(b => b.Price < 10)
 			      .OrderBy(b => b.Price)
-			      .Select(b => b.Title); </pre>
->>>>>>> c26fd8477b6a6d72ec3597dbbe05976dabe697eb
-=======
-			     .Where(b => b.Price < 10)
-			     .OrderBy(b => b.Price)
-			     .Select(b => b.Title); </pre>
->>>>>>> 9c668191e81e79f54297059b15716e1cef7c1dda
-							   
-##8. LINQ Query Operators Syntax
+			      .Select(b => b.Title);</pre>
+   
+## 8. LINQ Query Operators Syntax
 
 <pre>var cheaperBooksLINQ = from b in books
                             where b.Price < 10
                             orderby b.Price
                             select b;</pre>
 
-
- 
- 
- 
