@@ -1,0 +1,6 @@
+C:\Users\Giant\Desktop\Nullable_Types\Nullable_Types\bin\Debug\Nullable_Types.exe.config
+C:\Users\Giant\Desktop\Nullable_Types\Nullable_Types\bin\Debug\Nullable_Types.exe
+C:\Users\Giant\Desktop\Nullable_Types\Nullable_Types\bin\Debug\Nullable_Types.pdb
+C:\Users\Giant\Desktop\Nullable_Types\Nullable_Types\obj\Debug\Nullable_Types.csprojResolveAssemblyReference.cache
+C:\Users\Giant\Desktop\Nullable_Types\Nullable_Types\obj\Debug\Nullable_Types.exe
+C:\Users\Giant\Desktop\Nullable_Types\Nullable_Types\obj\Debug\Nullable_Types.pdb
