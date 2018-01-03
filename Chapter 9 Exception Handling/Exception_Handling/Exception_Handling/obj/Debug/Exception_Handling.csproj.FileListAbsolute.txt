@@ -1,0 +1,6 @@
+C:\Users\Giant\Desktop\Exception_Handling\Exception_Handling\bin\Debug\Exception_Handling.exe.config
+C:\Users\Giant\Desktop\Exception_Handling\Exception_Handling\bin\Debug\Exception_Handling.exe
+C:\Users\Giant\Desktop\Exception_Handling\Exception_Handling\bin\Debug\Exception_Handling.pdb
+C:\Users\Giant\Desktop\Exception_Handling\Exception_Handling\obj\Debug\Exception_Handling.csprojResolveAssemblyReference.cache
+C:\Users\Giant\Desktop\Exception_Handling\Exception_Handling\obj\Debug\Exception_Handling.exe
+C:\Users\Giant\Desktop\Exception_Handling\Exception_Handling\obj\Debug\Exception_Handling.pdb
