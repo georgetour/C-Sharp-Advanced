@@ -1,0 +1,14 @@
+c:\users\giant\documents\visual studio 2015\Projects\Asynchronous_Operation\Asynchronous_Operation\bin\Debug\Asynchronous_Operation.exe.config
+c:\users\giant\documents\visual studio 2015\Projects\Asynchronous_Operation\Asynchronous_Operation\bin\Debug\Asynchronous_Operation.exe
+c:\users\giant\documents\visual studio 2015\Projects\Asynchronous_Operation\Asynchronous_Operation\bin\Debug\Asynchronous_Operation.pdb
+c:\users\giant\documents\visual studio 2015\Projects\Asynchronous_Operation\Asynchronous_Operation\obj\Debug\Asynchronous_Operation.csprojResolveAssemblyReference.cache
+c:\users\giant\documents\visual studio 2015\Projects\Asynchronous_Operation\Asynchronous_Operation\obj\Debug\MainWindow.g.cs
+c:\users\giant\documents\visual studio 2015\Projects\Asynchronous_Operation\Asynchronous_Operation\obj\Debug\App.g.cs
+c:\users\giant\documents\visual studio 2015\Projects\Asynchronous_Operation\Asynchronous_Operation\obj\Debug\Asynchronous_Operation_MarkupCompile.cache
+c:\users\giant\documents\visual studio 2015\Projects\Asynchronous_Operation\Asynchronous_Operation\obj\Debug\Asynchronous_Operation_MarkupCompile.lref
+c:\users\giant\documents\visual studio 2015\Projects\Asynchronous_Operation\Asynchronous_Operation\obj\Debug\MainWindow.baml
+c:\users\giant\documents\visual studio 2015\Projects\Asynchronous_Operation\Asynchronous_Operation\obj\Debug\Asynchronous_Operation.g.resources
+c:\users\giant\documents\visual studio 2015\Projects\Asynchronous_Operation\Asynchronous_Operation\obj\Debug\Asynchronous_Operation.Properties.Resources.resources
+c:\users\giant\documents\visual studio 2015\Projects\Asynchronous_Operation\Asynchronous_Operation\obj\Debug\Asynchronous_Operation.csproj.GenerateResource.Cache
+c:\users\giant\documents\visual studio 2015\Projects\Asynchronous_Operation\Asynchronous_Operation\obj\Debug\Asynchronous_Operation.exe
+c:\users\giant\documents\visual studio 2015\Projects\Asynchronous_Operation\Asynchronous_Operation\obj\Debug\Asynchronous_Operation.pdb
